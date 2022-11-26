@@ -127,8 +127,7 @@ export default function ContactFormWithSocialButtons() {
                     <FormLabel>Name</FormLabel>
 
                     <InputGroup>
-                      <InputLeftElement children={<BsPe
-                      rson />} />
+                      <InputLeftElement children={<BsPerson />} />
                       <Input type="text" name="name" placeholder="Your Name" />
                     </InputGroup>
                   </FormControl>
